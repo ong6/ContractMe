@@ -27,7 +27,8 @@ const Logo = () => {
 		<Link href="/">
 			<a>
 				<LogoBox>
-					<Image src={codeImg} width={230} alt="logo" />
+					{/* <Image src={codeImg} width={230} alt="logo" /> */}
+					ContractMe
 					{/* <Text
 						color={useColorModeValue("gray.800", "whiteAlpha.900")}
 						fontFamily="Graphik, sans-serif"

@@ -4,9 +4,9 @@ import Head from "next/head";
 import Image from "next/image";
 import { BsFillCaretRightFill, BsFillCaretLeftFill } from "react-icons/bs";
 import Section from "../components/Sections";
-import persona from "../public/persona.png";
-import wireframe_01 from "../public/wireframe_01.png";
-import wireframe_02 from "../public/wireframe_02.png";
+// import persona from "../public/persona.png";
+// import wireframe_01 from "../public/wireframe_01.png";
+// import wireframe_02 from "../public/wireframe_02.png";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -20,15 +20,15 @@ export default function Home() {
 
 			<div className="">
 				<Section delay={0.1}>
-					<div className="text-lg mt-6">
+					<div className="mt-6 text-lg">
 						<div className="text-2xl font-medium">Design Process</div>
-						<div className="text-lg mt-2">
+						<div className="mt-2 text-lg">
 							Before starting the design process, I had to identify who my app
 							was going to be for. Below are the steps I took to gather the user
 							requirements as well as my prototyping stage.
 						</div>
-						<div className="text-xl font-medium mt-2">Primary User Group</div>
-						<ol className="text-lg list-disc list-inside py-4">
+						<div className="mt-2 text-xl font-medium">Primary User Group</div>
+						<ol className="py-4 text-lg list-disc list-inside">
 							<li className="li">
 								Social media users who are focused on video content
 							</li>
@@ -45,22 +45,22 @@ export default function Home() {
 				<Section delay={0.2}>
 					<div className="text-xl font-medium">Persona</div>
 					<div className="flex justify-center py-4 text-xl">
-						<Image
+						{/* <Image
 							src={persona}
 							alt="ContractMe"
 							placeholder="blur"
 							className="rounded-lg"
-						/>
+						/> */}
 					</div>
 				</Section>
 				<Section delay={0.2}>
-					<div className="text-lg mt-6">
+					<div className="mt-6 text-lg">
 						<div className="text-xl font-medium">User Tasks</div>
-						<div className="text-lg mt-2">
+						<div className="mt-2 text-lg">
 							Then based on this user group and the persona, I came up with the
 							following user tasks.
 						</div>
-						<ol className="text-lg list-decimal list-inside py-4">
+						<ol className="py-4 text-lg list-decimal list-inside">
 							<li className="li">
 								I want to have a daily report with all my statistics across all
 								social media platforms.
@@ -85,7 +85,7 @@ export default function Home() {
 							I then listed out a few key screens and features that I wanted to
 							include in my prototypes.
 						</div>
-						<ol className="text-lg list-disc list-inside py-4">
+						<ol className="py-4 text-lg list-disc list-inside">
 							<li className="li">Dashboard to view all information</li>
 							<li className="li">
 								Teams panel to manage team members - Since nowadays video
@@ -108,35 +108,35 @@ export default function Home() {
 				<Section delay={0.3}>
 					<div className="flex flex-col justify-center py-4 text-xl">
 						<div className="text-xl font-medium">Storyboard 1</div>
-						<Image
+						{/* <Image
 							src={wireframe_01}
 							alt="ContractMe"
 							placeholder="blur"
 							className="rounded-lg"
-						/>
+						/> */}
 					</div>
 				</Section>
 				<Section delay={0.3}>
 					<div className="flex flex-col justify-center py-4 text-xl">
 						<div className="text-xl font-medium">Storyboard 2</div>
-						<Image
+						{/* <Image
 							src={wireframe_02}
 							alt="ContractMe"
 							placeholder="blur"
 							className="rounded-lg"
-						/>
+						/> */}
 					</div>
 				</Section>
 				<Section delay={0.4}>
-					<div className="text-lg mt-4">
-						<div className="text-lg mt-2">
+					<div className="mt-4 text-lg">
+						<div className="mt-2 text-lg">
 							After designing the Storyboards I devised a user flow that would
 							fit with the design of the app.
 						</div>
-						<div className="text-xl font-medium mt-2">
+						<div className="mt-2 text-xl font-medium">
 							User Flow 1 - Analytics
 						</div>
-						<ol className="text-lg list-decimal list-inside py-4">
+						<ol className="py-4 text-lg list-decimal list-inside">
 							<li className="li">
 								User logs in with their account and is redirected to the
 								dashboard.
@@ -151,8 +151,8 @@ export default function Home() {
 								wish to see the data for.
 							</li>
 						</ol>
-						<div className="text-xl font-medium mt-2">User Flow 2 - Report</div>
-						<ol className="text-lg list-decimal list-inside py-4">
+						<div className="mt-2 text-xl font-medium">User Flow 2 - Report</div>
+						<ol className="py-4 text-lg list-decimal list-inside">
 							<li className="li">
 								User logs in with their account and is redirected to the
 								dashboard.
@@ -170,8 +170,8 @@ export default function Home() {
 								data.
 							</li>
 						</ol>
-						<div className="text-xl font-medium mt-2">User Flow 3 - Videos</div>
-						<ol className="text-lg list-decimal list-inside py-4">
+						<div className="mt-2 text-xl font-medium">User Flow 3 - Videos</div>
+						<ol className="py-4 text-lg list-decimal list-inside">
 							<li className="li">
 								User logs in with their account and is redirected to the
 								dashboard.
@@ -194,13 +194,13 @@ export default function Home() {
 					</div>
 				</Section>
 				<Section delay={0.5}>
-					<div className="text-lg mt-4">
+					<div className="mt-4 text-lg">
 						<div className="text-xl font-medium">Design Findings</div>
-						<div className="text-lg mt-2">
+						<div className="mt-2 text-lg">
 							Some of the design decisions I weighed while working on the
 							wireframe:
 						</div>
-						<ol className="text-lg list-disc list-inside py-4">
+						<ol className="py-4 text-lg list-disc list-inside">
 							<li className="li">
 								Using a dashboard style vs using a traditional style webpage.
 							</li>

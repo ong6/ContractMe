@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import Section from "../components/Sections";
-import analytics_example from "../public/analytics_example.png";
-import dashboard_example from "../public/dashboard_example.png";
-import report_example from "../public/report_example.png";
-import video_example from "../public/video_example.png";
+// import analytics_example from "../public/analytics_example.png";
+// import dashboard_example from "../public/dashboard_example.png";
+// import report_example from "../public/report_example.png";
+// import video_example from "../public/video_example.png";
 import styles from "../styles/Home.module.css";
 import { Button } from "@chakra-ui/react";
 import { BsFillCaretRightFill, BsFillCaretLeftFill } from "react-icons/bs";
@@ -20,13 +20,13 @@ export default function Home() {
 			</Head>
 			<div className="">
 				<Section delay={0.1}>
-					<div className="text-lg mt-6">
+					<div className="mt-6 text-lg">
 						<div className="text-2xl font-medium">Design Decisions</div>
-						<div className="text-lg mt-2">
+						<div className="mt-2 text-lg">
 							While working on the High-Fi prototype, I choose to split my
 							sidebar mockup into the following sections:
 						</div>
-						<ol className="text-lg list-decimal list-inside py-4 px-2">
+						<ol className="px-2 py-4 text-lg list-decimal list-inside">
 							<li className="li">Dashboard - Landing page for the user</li>
 							<li className="li">
 								Messages - Allows user to chat with team members
@@ -67,7 +67,7 @@ export default function Home() {
 							app to show users how the different sections work together to
 							create a cohesive user experience.
 						</div>
-						<div className="text-xl font-medium mt-2">External Libraries</div>
+						<div className="mt-2 text-xl font-medium">External Libraries</div>
 						<div className="mt-2">
 							I choose to make use of
 							<a href="https://mui.com/" className="text-blue-500">
@@ -90,9 +90,9 @@ export default function Home() {
 					</div>
 				</Section>
 				<Section delay={0.2}>
-					<div className="text-lg mt-6">
+					<div className="mt-6 text-lg">
 						<div className="text-xl font-medium">Design Theories</div>
-						<div className="text-lg mt-2">
+						<div className="mt-2 text-lg">
 							I decided to go with the main colors being white and blue with
 							other colors being used to make other details pop. I followed
 							design guidelines such as the{" "}
@@ -103,7 +103,7 @@ export default function Home() {
 							</a>{" "}
 							for coloring and kept my design as clean and minimal as possible.
 						</div>
-						<div className="text-lg mt-2">
+						<div className="mt-2 text-lg">
 							Before creating each interaction I kept Norman&apos;s Action model
 							in mind and asked if the user intentions would match the expected
 							outcome. I also took note of Shneiderman&apos;s 8 Golden Rules in
@@ -111,7 +111,7 @@ export default function Home() {
 							and 8 (Reduce short-term memory load) where especially important
 							in this app.
 						</div>
-						<div className="text-lg mt-2">
+						<div className="mt-2 text-lg">
 							Since each page is very information dense, I try to reduce the
 							short term-memory load by restricting the amount of information
 							the user can see at any give time. By compiling the data into one
@@ -122,17 +122,17 @@ export default function Home() {
 				<Section delay={0.2}>
 					<div className="flex flex-col justify-center py-4 text-xl">
 						<div className="text-xl font-medium">Dashboard Design</div>
-						<Image
+						{/* <Image
 							src={dashboard_example}
 							alt="ContractMe"
 							placeholder="blur"
 							className="rounded-lg"
-						/>
+						/> */}
 					</div>
 				</Section>
 				<Section delay={0.3}>
-					<div className="text-lg mt-6">
-						<div className="text-lg mt-2">
+					<div className="mt-6 text-lg">
+						<div className="mt-2 text-lg">
 							The dashboard was the first page created and helped me to form the
 							style that I would stick with for the rest of the pages. Initially
 							I experimented with more of a flat looks where all the information
@@ -140,7 +140,7 @@ export default function Home() {
 							However, I felt that that design would be too cluttered and may
 							lead to cognitive overload.
 						</div>
-						<div className="text-lg mt-2">
+						<div className="mt-2 text-lg">
 							Hence, I decided to keep all my items in each page as containers.
 							I felt that this would make the charts and graphs less cluttered
 							and give the user a feeling for spaciousness. I also split the
@@ -153,17 +153,17 @@ export default function Home() {
 				<Section delay={0.4}>
 					<div className="flex flex-col justify-center py-4 text-xl">
 						<div className="text-xl font-medium">Analytics Design</div>
-						<Image
+						{/* <Image
 							src={analytics_example}
 							alt="ContractMe"
 							placeholder="blur"
 							className="rounded-lg"
-						/>
+						/> */}
 					</div>
 				</Section>
 				<Section delay={0.5}>
-					<div className="text-lg mt-6">
-						<div className="text-lg mt-2">
+					<div className="mt-6 text-lg">
+						<div className="mt-2 text-lg">
 							The Analytics page is used to measure performance across
 							platforms, this allows the user to have a high level overview of
 							how their videos are performing. Most of the charts in this page
@@ -173,7 +173,7 @@ export default function Home() {
 							on the importance and helps to present the data in a more formal
 							manner.
 						</div>
-						<div className="text-lg mt-2">
+						<div className="mt-2 text-lg">
 							All the chart data such as views, view growth and watch time are
 							fields that the youtube, facebook and twitch analytics pages
 							provided. So all these data fields are realistic and accurate in
@@ -185,24 +185,24 @@ export default function Home() {
 				<Section delay={0.6}>
 					<div className="flex flex-col justify-center py-4 text-xl">
 						<div className="text-xl font-medium">Report Design</div>
-						<Image
+						{/* <Image
 							src={report_example}
 							alt="ContractMe"
 							placeholder="blur"
 							className="rounded-lg"
-						/>
+						/> */}
 					</div>
 				</Section>
 				<Section delay={0.7}>
-					<div className="text-lg mt-6">
-						<div className="text-lg mt-2">
+					<div className="mt-6 text-lg">
+						<div className="mt-2 text-lg">
 							The key difference between the report page and the analytics page
 							is that they represent the different types of data. While the
 							analytics page is for representing the video data, the report page
 							is more for business data. This enables users to see how their
 							videos are doing from a business perspective.
 						</div>
-						<div className="text-lg mt-2">
+						<div className="mt-2 text-lg">
 							As with the analytics page, the charts are drawn with the charts
 							library and represent real data that can be gotten from each
 							platform. I also decided to split out some of the data such as
@@ -216,17 +216,17 @@ export default function Home() {
 				<Section delay={0.8}>
 					<div className="flex flex-col justify-center py-4 text-xl">
 						<div className="text-xl font-medium">Video Design</div>
-						<Image
+						{/* <Image
 							src={video_example}
 							alt="ContractMe"
 							placeholder="blur"
 							className="rounded-lg"
-						/>
+						/> */}
 					</div>
 				</Section>
 				<Section delay={0.9}>
-					<div className="text-lg mt-6">
-						<div className="text-lg mt-2">
+					<div className="mt-6 text-lg">
+						<div className="mt-2 text-lg">
 							Finally, we have the video page. This page can be used by creators
 							to help manage their past videos, post new videos and view their
 							current videos. The page shows which platforms users have posted
@@ -235,7 +235,7 @@ export default function Home() {
 							allow of displaying of more details than a card format while being
 							easier to sort through the date, views and other field.
 						</div>
-						<div className="text-lg mt-2">
+						<div className="mt-2 text-lg">
 							Users can also view individual videos analytics from this page by
 							clicking the three dots at the action area to open a small pop up
 							menu.
