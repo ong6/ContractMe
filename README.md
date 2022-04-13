@@ -1,4 +1,4 @@
-ContractMe: Social Media Manager
+ContractMe: Carosell for Contractors
 
 Landing page for the design files.
 
