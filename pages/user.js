@@ -76,7 +76,7 @@ export default function User() {
 					</ol>
 				</div>
 			</Section>
-			<Section delay={0.5}>
+			<Section delay={0.2}>
 				<div className="mt-6 text-lg">
 					<div className="mt-2 text-xl font-medium">Recruitment methods</div>
 					<div className="mt-2 text-lg">
@@ -97,7 +97,7 @@ export default function User() {
 					</ol>
 				</div>
 			</Section>
-			<Section delay={0.5}>
+			<Section delay={0.3}>
 				<div className="mt-6 text-lg">
 					<div className="mt-2 text-xl font-medium">Sampling Methods</div>
 					<div className="mt-2 text-lg">
@@ -112,7 +112,7 @@ export default function User() {
 					</ol>
 				</div>
 			</Section>
-			<Section delay={0.5}>
+			<Section delay={0.4}>
 				<div className="mt-6 text-lg">
 					<div className="mt-2 text-xl font-medium">
 						Hypothesis and Assumptions
@@ -162,7 +162,7 @@ export default function User() {
 					</div>
 				</div>
 			</Section>
-			<Section delay={0.5}>
+			<Section delay={0.6}>
 				<div className="mt-6 text-lg">
 					<div className="mt-2 text-xl font-medium">User Study Results</div>
 					<div className="mt-2 text-lg">
@@ -188,7 +188,7 @@ export default function User() {
 					</div>
 				</div>
 			</Section>
-			<Section delay={0.5}>
+			<Section delay={0.7}>
 				<div className="mt-6 text-lg">
 					<div className="mt-2 text-xl font-medium">
 						Overall Findings and Analysis
@@ -273,7 +273,7 @@ export default function User() {
 					</div>
 				</div>
 			</Section>
-			<Section delay={0.7}>
+			<Section delay={0.8}>
 				<div className="flex items-center justify-between">
 					<Link href="/">
 						<Button colorScheme="teal" leftIcon={<BsFillCaretLeftFill />}>

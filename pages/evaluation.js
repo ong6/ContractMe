@@ -158,7 +158,7 @@ export default function Evaluation() {
 					</Accordion>
 				</div>
 			</Section>
-			<Section delay={0.5}>
+			<Section delay={0.2}>
 				<div className="mt-6 text-lg">
 					<div className="mt-2 text-xl font-medium">Evaluation</div>
 					<div className="mt-2 mb-4 text-lg">
@@ -464,7 +464,7 @@ export default function Evaluation() {
 					</Accordion>
 				</div>
 			</Section>
-			<Section delay={0.5}>
+			<Section delay={0.3}>
 				<div className="mt-6 text-lg">
 					<div className="mt-2 text-2xl font-medium">Findings</div>
 					<div className="mt-4 text-xl font-medium">Successful Aspects</div>
@@ -572,7 +572,7 @@ export default function Evaluation() {
 					</Accordion>
 				</div>
 			</Section>
-			<Section delay={0.5}>
+			<Section delay={0.4}>
 				<div className="mt-6 text-lg">
 					<div className="mt-2 text-xl font-medium">Areas for Improvement</div>
 					<div className="mt-2 mb-4 text-lg">
@@ -777,7 +777,7 @@ export default function Evaluation() {
 					</div>
 				</div>
 			</Section>
-			<Section delay={0.7}>
+			<Section delay={0.6}>
 				<div className="flex items-center justify-between">
 					<Link href="/">
 						<Button colorScheme="teal" leftIcon={<BsFillCaretLeftFill />}>

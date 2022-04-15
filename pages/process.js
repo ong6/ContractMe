@@ -96,7 +96,7 @@ export default function Process() {
 					/>
 				</div>
 			</Section>
-			<Section delay={0.5}>
+			<Section delay={0.2}>
 				<div className="mt-6 text-lg">
 					<div className="mt-2 text-xl font-medium">User Tasks</div>
 					<div className="mt-2 text-lg">
@@ -357,7 +357,7 @@ export default function Process() {
 					</div>
 				</div>
 			</Section>
-			<Section delay={0.5}>
+			<Section delay={0.3}>
 				<div className="mt-6 text-lg">
 					<div className="mt-2 text-xl font-medium">
 						Wireframing and Prototyping
@@ -416,7 +416,7 @@ export default function Process() {
 					</Tabs>
 				</div>
 			</Section>
-			<Section delay={0.5}>
+			<Section delay={0.4}>
 				<div className="mt-6 text-lg">
 					<div className="mt-2 text-xl font-medium">Internal team review</div>
 					<div className="mt-2 text-lg">
@@ -827,7 +827,7 @@ export default function Process() {
 					</ol>
 				</div>
 			</Section>
-			<Section delay={0.7}>
+			<Section delay={0.6}>
 				<div className="flex items-center justify-between">
 					<Link href="/">
 						<Button colorScheme="teal" leftIcon={<BsFillCaretLeftFill />}>
