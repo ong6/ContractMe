@@ -37,7 +37,7 @@ export default function Demo() {
 						<iframe
 							className="my-4 border-2 border-blue-300 rounded-lg w-full"
 							height="600"
-							src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FbrRhvhN3In9jbjXjRXK1GO%2FJun-Xiong-Prototype%3Fpage-id%3D0%253A1%26node-id%3D30%253A4415%26viewport%3D337%252C48%252C0.5%26scaling%3Dscale-down%26starting-point-node-id%3D8%253A170"
+							src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FcOeKMKw3s5ijxGPxupQQDn%2FContract-Me!%3Fpage-id%3D14855%253A5765%26node-id%3D14870%253A14239%26viewport%3D337%252C48%252C0.1%26scaling%3Dscale-down%26starting-point-node-id%3D14869%253A13739%26show-proto-sidebar%3D1"
 							allowFullScreen></iframe>
 					</div>
 				</Section>
@@ -47,7 +47,7 @@ export default function Demo() {
 						<iframe
 							className="my-4 border-2 border-blue-300 rounded-lg w-full"
 							height="600"
-							src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FbrRhvhN3In9jbjXjRXK1GO%2FJun-Xiong-Prototype%3Fnode-id%3D0%253A1"
+							src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FcOeKMKw3s5ijxGPxupQQDn%2FContract-Me!%3Fnode-id%3D14855%253A5765"
 							allowFullScreen></iframe>
 					</div>
 				</Section>

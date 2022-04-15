@@ -65,7 +65,7 @@ export default function Process() {
 						for more details.
 					</div>
 					<div className="mt-2 text-xl font-medium">Persona</div>
-					<div className="mt-2 text-lg">
+					<div className="my-2 text-lg">
 						The personas were designed in figma and can be viewed in high
 						quality{" "}
 						<a
@@ -788,19 +788,6 @@ export default function Process() {
 						meeting user requirements.
 					</div>
 					<div className="mt-2 text-lg">
-						Based on the general internal team review, we realised that while we
-						had varying different design styles and implementations, some key
-						portions that were common included cards for contractor services,
-						having categories to group the services together, as well as a
-						guided search segment that would allow us to accomplish user task 1.
-						All of us also had an application interface that combined multiple
-						factors among contractors, apart from the given factor (price).
-					</div>
-					<div className="mt-2 text-lg">
-						Some unique features include using hardware cameras with advanced
-						technologies to help detect the contracting issues.
-					</div>
-					<div className="mt-2 text-lg">
 						Here is a list of learning points that we gathered from this round
 						of design interaction:
 					</div>
@@ -838,11 +825,6 @@ export default function Process() {
 							before.
 						</li>
 					</ol>
-					<div className="mt-2 text-lg">
-						These study methods helped us to gather useful information about the
-						users and helped us gauge the interest in our proposed solutions by
-						getting a clear understanding of their pain points.
-					</div>
 				</div>
 			</Section>
 			<Section delay={0.7}>
