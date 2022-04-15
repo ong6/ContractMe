@@ -118,7 +118,7 @@ export default function Evaluation() {
 									current top favourite listing, they can click on the
 									&quot;Compare&quot; icon at the top right hand corner of the
 									detailed listing. An overlay would popup, comparing only the
-									user&quot;s favorite and the current listing being viewed.
+									user&apos;s favorite and the current listing being viewed.
 								</div>
 							</AccordionPanel>
 						</AccordionItem>
@@ -381,7 +381,6 @@ export default function Evaluation() {
 									please keep in mind that it is ContractMe that is the subject
 									of this evaluation - not you.
 								</div>
-								<div className="mt-2">The</div>
 							</AccordionPanel>
 						</AccordionItem>
 
