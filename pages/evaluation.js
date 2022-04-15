@@ -46,7 +46,7 @@ export default function Evaluation() {
 		<div className={styles.container}>
 			<Head>
 				<title>Evaluation | ContractMe</title>
-				<meta name="description" content="User Research | ContractMe" />
+				<meta name="description" content="Evaluation | ContractMe" />
 				<link rel="icon" href="/favicon.png" />
 			</Head>
 			<Section delay={0.1}>

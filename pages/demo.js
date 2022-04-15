@@ -25,8 +25,8 @@ export default function Demo() {
 	return (
 		<div className={styles.container}>
 			<Head>
-				<title>ContractMe - Figma Showcase</title>
-				<meta name="description" content="ContractMe" />
+				<title>Figma Showcase | ContractMe</title>
+				<meta name="description" content="Figma Showcase | ContractMe" />
 				<link rel="icon" href="/favicon.png" />
 			</Head>
 
@@ -103,8 +103,8 @@ export default function Demo() {
 				<Section delay={0.7}>
 					<div className="flex items-center justify-between">
 						<Link href="/evaluation">
-							<Button colorScheme="twitter" leftIcon={<BsFillCaretLeftFill />}>
-								To Design Process
+							<Button colorScheme="teal" leftIcon={<BsFillCaretLeftFill />}>
+								To Evaluation
 							</Button>
 						</Link>
 					</div>
