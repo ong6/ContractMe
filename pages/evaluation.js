@@ -714,22 +714,7 @@ export default function Evaluation() {
 									<TabPanels>
 										<TabPanel>
 											<div className="my-2">
-												While users find the identification very useful, they
-												felt that there should be more shortcuts or prompts to
-												lead them to this feature.
-											</div>
-											<Image
-												src={improvement_1}
-												alt="ContractMe"
-												placeholder="blur"
-												className="rounded-lg"
-											/>
-											<div className="mt-2">
-												As the feature icon was just a regular camera icon, it
-												did not occur to them that it is a special feature to
-												identify issues. There were also comments to simplify
-												and reduce the number of sections and clicks required a
-												user needs to go through before identifying the problem.
+												While users found the identification feature very useful, they felt that the process was too long. There were too many confirmation pages to narrow down the issue. As such, comments were mainly to simplify and reduce the number of sections and clicks required to identify the problem.
 											</div>
 										</TabPanel>
 										<TabPanel>
