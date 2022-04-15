@@ -27,7 +27,7 @@ export default function Home() {
 			<Head>
 				<title>ContractMe - Figma Showcase</title>
 				<meta name="description" content="ContractMe" />
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/favicon.png" />
 			</Head>
 
 			<div className="">

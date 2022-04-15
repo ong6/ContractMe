@@ -34,7 +34,7 @@ export default function Home() {
 			<Head>
 				<title>ContractMe - Design Process</title>
 				<meta name="description" content="ContractMe" />
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/favicon.png" />
 			</Head>
 
 			<div className="">

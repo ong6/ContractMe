@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Text, useColorModeValue } from "@chakra-ui/react";
 import styled from "@emotion/styled";
-import codeImg from "../public/Logo.svg";
+import codeImg from "../public/logo2.png";
 
 const LogoBox = styled.span`
 	font-weight: bold;
@@ -27,8 +27,7 @@ const Logo = () => {
 		<Link href="/">
 			<a>
 				<LogoBox>
-					{/* <Image src={codeImg} width={230} alt="logo" /> */}
-					ContractMe
+					<Image src={codeImg} alt="logo" />
 					{/* <Text
 						color={useColorModeValue("gray.800", "whiteAlpha.900")}
 						fontFamily="Graphik, sans-serif"

@@ -12,7 +12,7 @@ const Main = ({ children, router }) => {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta property="og:type" content="website" />
 				<meta property="og:image" content="/favicon.png" />
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/favicon.png" />
 				<title>Homepage</title>
 			</Head>
 
