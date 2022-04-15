@@ -6,6 +6,7 @@ import styles from "../styles/Home.module.css";
 import { Button } from "@chakra-ui/react";
 import { BsFillCaretRightFill } from "react-icons/bs";
 import Link from "next/dist/client/link";
+import Team from "../components/Team";
 
 export default function Home() {
 	return (
@@ -92,29 +93,12 @@ export default function Home() {
 					</div>
 				</Section>
 				<Section delay={0.7}>
-					<div className="mt-6 text-lg">
-						<div className="mt-2 text-2xl font-medium">Team
-						</div>
-						<ol className="py-4 text-lg list-disc list-inside">
-							<li className="li">
-								Liu Yongliang
-							</li>
-							<li className="li">
-								Lou Yun Xin
-							</li>
-							<li className="li">
-								Ng Ting You (Chris)
-							</li>
-							<li className="li">
-								Ong Jun Xiong
-							</li>
-						</ol>
-					</div>
+					<Team />
 				</Section>
 				<Section delay={1}>
 					<div className="flex items-center justify-between">
 						<div className="div"></div>
-						<Link href="/userResearch">
+						<Link href="/user">
 							<Button
 								colorScheme="teal"
 								rightIcon={<BsFillCaretRightFill />}>
