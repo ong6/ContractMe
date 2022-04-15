@@ -764,7 +764,12 @@ export default function Evaluation() {
 									<TabPanels>
 										<TabPanel>
 											<div className="my-2">
-												While users found the identification feature very useful, they felt that the process was too long. There were too many confirmation pages to narrow down the issue. As such, comments were mainly to simplify and reduce the number of sections and clicks required to identify the problem.
+												While users found the identification feature very
+												useful, they felt that the process was too long. There
+												were too many confirmation pages to narrow down the
+												issue. As such, comments were mainly to simplify and
+												reduce the number of sections and clicks required to
+												identify the problem.
 											</div>
 										</TabPanel>
 										<TabPanel>
