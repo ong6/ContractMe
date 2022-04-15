@@ -28,7 +28,7 @@ export default function Home() {
 						/>
 					</div>
 				</Section>
-				<Section delay={0.3}>
+				<Section delay={0.2}>
 					<div className="mt-6 text-lg">
 						<div className="text-2xl font-medium">Introduction</div>
 						<div className="mt-2 text-xl font-medium">Design Problem</div>
@@ -57,7 +57,7 @@ export default function Home() {
 						</div>
 					</div>
 				</Section>
-				<Section delay={0.5}>
+				<Section delay={0.3}>
 					<div className="mt-4 text-lg">
 						<div className="mt-2 text-xl font-medium">Our Solution</div>
 						<div className="mt-2 text-lg">
