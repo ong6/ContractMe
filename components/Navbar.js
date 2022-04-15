@@ -29,9 +29,9 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
 				fontFamily="Graphik"
 				fontWeight="medium"
 				fontSize="lg"
-				bg={active ? "#123C69" : undefined}
-				color={active ? "#EEE2DC" : inactiveColor}
-				_hover={{ color: "#0560fd" }}
+				bg={active ? "#4087A0" : undefined}
+				color={active ? "#ffffff" : inactiveColor}
+				_hover={{ color: "#383B50" }}
 				_target={_target}
 				{...props}>
 				{children}
@@ -70,8 +70,8 @@ const Navbar = (props) => {
 					alignItems="center"
 					flexGrow={1}
 					mt={{ base: 4, md: 0 }}>
-					<LinkItem href="/process" path={path}>
-						Design Process
+					<LinkItem href="/userResearch" path={path}>
+						User Research
 					</LinkItem>
 					<LinkItem href="/decisions" path={path}>
 						Design Decisions
@@ -98,8 +98,8 @@ const Navbar = (props) => {
 								<NextLink href="/" passHref>
 									<MenuItem as={Link}>Home</MenuItem>
 								</NextLink>
-								<NextLink href="/process" passHref>
-									<MenuItem as={Link}>Design Process</MenuItem>
+								<NextLink href="/userResearch" passHref>
+									<MenuItem as={Link}>User Research</MenuItem>
 								</NextLink>
 								<NextLink href="/decisions" passHref>
 									<MenuItem as={Link}>Design Decisions</MenuItem>

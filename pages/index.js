@@ -11,7 +11,7 @@ export default function Home() {
 	return (
 		<div className={styles.container}>
 			<Head>
-				<title>ContractMe</title>
+				<title>Home | ContractMe</title>
 				<meta name="description" content="ContractMe" />
 				<link rel="icon" href="/favicon.png" />
 			</Head>
@@ -99,11 +99,11 @@ export default function Home() {
 				<Section delay={1}>
 					<div className="flex items-center justify-between">
 						<div className="div"></div>
-						<Link href="/process">
+						<Link href="/userResearch">
 							<Button
 								colorScheme="teal"
 								rightIcon={<BsFillCaretRightFill />}>
-								To Design Process
+								To User Research
 							</Button>
 						</Link>
 					</div>
