@@ -78,9 +78,10 @@ export default function Home() {
 							Overview of this website
 						</div>
 						<div className="mt-2">
-							We'll be walking you through our design process from all stages.
-							We will follow the double diamond design process showcase the
-							decisions we made before finally showing you our final product.
+							We&apos;ll be walking you through our design process from all
+							stages. We will follow the double diamond design process showcase
+							the decisions we made before finally showing you our final
+							product.
 						</div>
 						<div className="text-center">
 							<Image
@@ -92,9 +93,9 @@ export default function Home() {
 						</div>
 						<div className="mt-2">
 							A disclaimer that this project portfolio is meant to show a high
-							level overview of what we've achieved, to view a more in-depth
-							version of our user research steps, please take a look at our main
-							document{" "}
+							level overview of what we&apos;ve achieved, to view a more
+							in-depth version of our user research steps, please take a look at
+							our main document{" "}
 							<a
 								href={
 									"https://docs.google.com/document/d/1E_OUWJjxPEL88tFPlLIUq07XI0RHtSvggV27suP68UQ/edit#"
