@@ -15,7 +15,6 @@ import {
 	useColorModeValue,
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
-import { IoLogoGithub } from "react-icons/io5";
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
 	const active = path === href;
@@ -26,7 +25,7 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
 			<Link
 				p={2}
 				px={4}
-				fontFamily="Graphik"
+				fontFamily=""
 				fontWeight="medium"
 				fontSize="lg"
 				bg={active ? "#4087A0" : undefined}
