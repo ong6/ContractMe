@@ -49,20 +49,8 @@ export default function Process() {
 					<div className="mt-2 text-2xl font-medium">Design Process</div>
 					<div className="mt-2 text-lg">
 						Next we will start the design process in which we will show the
-						steps taken to reach our full prototype. As with the user research
-						section, this is a high level overview of what we did, view the
-						document
-						<a
-							href={
-								"https://docs.google.com/document/d/1E_OUWJjxPEL88tFPlLIUq07XI0RHtSvggV27suP68UQ/edit#"
-							}
-							target="_blank"
-							className="text-blue-500"
-							rel="noreferrer">
-							{" "}
-							here{" "}
-						</a>
-						for more details.
+						steps taken to reach our full prototype. This coincides with the
+						define stage of the double diamond design model.
 					</div>
 					<div className="mt-2 text-xl font-medium">Persona</div>
 					<div className="my-2 text-lg">

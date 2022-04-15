@@ -39,18 +39,8 @@ export default function User() {
 					</div>
 					<div className="mt-2 text-lg">
 						In this section we will be looking at a high-level summary of the
-						user research process. To view a more in-depth version of our user
-						research steps, please view the main document{" "}
-						<a
-							href={
-								"https://docs.google.com/document/d/1E_OUWJjxPEL88tFPlLIUq07XI0RHtSvggV27suP68UQ/edit#"
-							}
-							target="_blank"
-							className="text-blue-500"
-							rel="noreferrer">
-							here
-						</a>
-						.
+						user research process. This coincides with the discover stage of the
+						double diamond design model.
 					</div>
 					<div className="mt-2 text-xl font-medium">Primary Users</div>
 					<div className="mt-2 text-lg">
