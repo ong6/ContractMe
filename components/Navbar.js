@@ -69,17 +69,17 @@ const Navbar = (props) => {
 					alignItems="center"
 					flexGrow={1}
 					mt={{ base: 4, md: 0 }}>
-					<LinkItem href="/userResearch" path={path}>
+					<LinkItem href="/user" path={path}>
 						User Research
 					</LinkItem>
-					<LinkItem href="/decisions" path={path}>
-						Design Decisions
+					<LinkItem href="/process" path={path}>
+						Design Process
 					</LinkItem>
 					<LinkItem href="/demo" path={path}>
 						Figma Showcase
 					</LinkItem>
-					<LinkItem href="/gallery" path={path}>
-						Gallery
+					<LinkItem href="/evaluation" path={path}>
+						Evaluation
 					</LinkItem>
 				</Stack>
 
@@ -97,17 +97,17 @@ const Navbar = (props) => {
 								<NextLink href="/" passHref>
 									<MenuItem as={Link}>Home</MenuItem>
 								</NextLink>
-								<NextLink href="/userResearch" passHref>
+								<NextLink href="/user" passHref>
 									<MenuItem as={Link}>User Research</MenuItem>
 								</NextLink>
-								<NextLink href="/decisions" passHref>
+								<NextLink href="/process" passHref>
 									<MenuItem as={Link}>Design Decisions</MenuItem>
 								</NextLink>
 								<NextLink href="/demo" passHref>
 									<MenuItem as={Link}>Figma Showcase</MenuItem>
 								</NextLink>
-								<NextLink href="/gallery" passHref>
-									<MenuItem as={Link}>Gallery</MenuItem>
+								<NextLink href="/evaluation" passHref>
+									<MenuItem as={Link}>Evaluation</MenuItem>
 								</NextLink>
 							</MenuList>
 						</Menu>

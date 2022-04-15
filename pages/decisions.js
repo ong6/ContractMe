@@ -10,7 +10,7 @@ import { Button } from "@chakra-ui/react";
 import { BsFillCaretRightFill, BsFillCaretLeftFill } from "react-icons/bs";
 import Link from "next/dist/client/link";
 
-export default function Home() {
+export default function decisions() {
 	return (
 		<div className={styles.container}>
 			<Head>
