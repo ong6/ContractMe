@@ -16,8 +16,8 @@ export default function Home() {
 				<link rel="icon" href="/favicon.png" />
 			</Head>
 			<div className="">
-				<Section delay={0.3}>
-					<div className="flex justify-center py-4 text-xl">
+				<Section delay={0.1}>
+					<div className="flex justify-center py-4 mt-6 text-xl">
 						<Image
 							src={poster}
 							alt="ContractMe"
@@ -26,14 +26,14 @@ export default function Home() {
 						/>
 					</div>
 				</Section>
-				<Section delay={0.1}>
+				<Section delay={0.3}>
 					<div className="mt-6 text-lg">
 						<div className="text-2xl font-medium">Introduction</div>
 						<div className="mt-2 text-xl font-medium">Design Problem</div>
 						<div className="mt-2 text-lg">
 							When home maintenance is required, homeowners tend to experience various pain points throughout the entire home-repair process. This includes:
 						</div>
-						<ol className="py-4 text-lg list-disc list-inside">
+						<ol className="py-4 text-lg list-inside">
 							<li className="li">
 								1. Identifying the problem that requires fixing
 							</li>
@@ -67,7 +67,6 @@ export default function Home() {
 							We aim to target younger married couples/homeowners who have not experienced handling household problems before or are relatively new to them. We have identified them as they are a group that might have the most trouble going through the home-repair process. As aforementioned, most problems arise from ignorance. With them not having much experience in such issues and in the interest of saving time, they are likely to be our main target group.
 
 							Another primary user group is the contractors. Apart from customers, contractors also often face many issues and frustration servicing the customers daily. As such, we aim to help contractors streamline and ease the process of liaising and securing deals with customers.
-
 						</div>
 						<div className="mt-2">
 							<b>Secondary User Group</b><br />
@@ -78,6 +77,26 @@ export default function Home() {
 					</div>
 				</Section>
 				<Section delay={0.7}>
+					<div className="mt-6 text-lg">
+						<div className="mt-2 text-xl font-medium">Team
+						</div>
+						<ol className="py-4 text-lg list-disc list-inside">
+							<li className="li">
+								Liu Yongliang
+							</li>
+							<li className="li">
+								Lou Yun Xin
+							</li>
+							<li className="li">
+								Ng Ting You (Chris)
+							</li>
+							<li className="li">
+								Ong Jun Xiong
+							</li>
+						</ol>
+					</div>
+				</Section>
+				<Section delay={1}>
 					<div className="flex items-center justify-between">
 						<div className="div"></div>
 						<Link href="/process">
