@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Section from "../components/Sections";
-import poster from "../public/logo3.png";
+import poster from "../public/cover.png";
 import styles from "../styles/Home.module.css";
 import { Button } from "@chakra-ui/react";
 import { BsFillCaretRightFill } from "react-icons/bs";
