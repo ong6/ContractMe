@@ -400,7 +400,7 @@ export default function Evaluation() {
 									successful the participants were in completing the tasks.
 								</div>
 								<TableContainer className="mt-4">
-									<Table variant="simple" size="sm">
+									<Table variant="striped" size="sm">
 										<TableCaption>User testing task list</TableCaption>
 										<Thead>
 											<Tr>
