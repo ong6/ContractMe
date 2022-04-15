@@ -71,8 +71,7 @@ export default function Demo() {
 						</ol>
 						<div className="mt-2 text-xl font-medium">Summary & Takeaways</div>
 						<div className="mt-2 text-lg">
-							Overall I learnt a lot of things from this design project and has
-							helped me to improve my UI/UX skills. Some of the key takeaways
+							Overall we learnt a lot from this team project. Some of the key takeaways
 							are below:
 						</div>
 						<ol className="py-4 text-lg list-disc list-inside">
