@@ -829,14 +829,14 @@ export default function Process() {
 			</Section>
 			<Section delay={0.6}>
 				<div className="flex items-center justify-between">
-					<Link href="/">
+					<Link href="/user">
 						<Button colorScheme="teal" leftIcon={<BsFillCaretLeftFill />}>
-							To Introduction
+							To User Research
 						</Button>
 					</Link>
-					<Link href="/demo">
+					<Link href="/evaluation">
 						<Button colorScheme="teal" rightIcon={<BsFillCaretRightFill />}>
-							To Figma Showcase
+							To Evaluation
 						</Button>
 					</Link>
 				</div>

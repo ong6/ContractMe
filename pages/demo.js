@@ -62,11 +62,11 @@ export default function Demo() {
 						<ol className="py-4 text-lg list-decimal list-inside">
 							<ListLink
 								data="Template file"
-								weblink="https://www.figma.com/file/brRhvhN3In9jbjXjRXK1GO/Jun-Xiong-Prototype?node-id=22%3A1116"
+								weblink="https://www.figma.com/file/cOeKMKw3s5ijxGPxupQQDn/Contract-Me!?node-id=14855%3A5765"
 							/>
 							<ListLink
 								data="Prototype file"
-								weblink="https://www.figma.com/proto/brRhvhN3In9jbjXjRXK1GO/Jun-Xiong-Prototype?page-id=0%3A1&node-id=8%3A170&viewport=337%2C48%2C0.5&scaling=scale-down&starting-point-node-id=8%3A170"
+								weblink="https://www.figma.com/proto/cOeKMKw3s5ijxGPxupQQDn/Contract-Me!?page-id=14855%3A5765&node-id=14944%3A16012&viewport=337%2C48%2C0.1&scaling=min-zoom&starting-point-node-id=14944%3A16012&show-proto-sidebar=1"
 							/>
 						</ol>
 						<div className="mt-2 text-xl font-medium">Summary & Takeaways</div>
@@ -102,16 +102,9 @@ export default function Demo() {
 				</Section>
 				<Section delay={0.7}>
 					<div className="flex items-center justify-between">
-						<Link href="/decisions">
+						<Link href="/evaluation">
 							<Button colorScheme="twitter" leftIcon={<BsFillCaretLeftFill />}>
-								To Design Decisions
-							</Button>
-						</Link>
-						<Link href="/gallery">
-							<Button
-								colorScheme="twitter"
-								rightIcon={<BsFillCaretRightFill />}>
-								To Gallery
+								To Design Process
 							</Button>
 						</Link>
 					</div>

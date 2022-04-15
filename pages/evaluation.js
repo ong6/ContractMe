@@ -574,7 +574,9 @@ export default function Evaluation() {
 			</Section>
 			<Section delay={0.4}>
 				<div className="mt-6 text-lg">
-					<div className="mt-2 text-xl font-medium">Areas for Improvement</div>
+					<div className="mt-2 text-xl font-medium">
+						Areas for Improvement and changes made
+					</div>
 					<div className="mt-2 mb-4 text-lg">
 						We also noted some areas where we could improve upon that we noticed
 						where pain points for users. Based on these findings, our team
@@ -779,9 +781,9 @@ export default function Evaluation() {
 			</Section>
 			<Section delay={0.6}>
 				<div className="flex items-center justify-between">
-					<Link href="/">
+					<Link href="/process">
 						<Button colorScheme="teal" leftIcon={<BsFillCaretLeftFill />}>
-							To Introduction
+							To Design Process
 						</Button>
 					</Link>
 					<Link href="/demo">

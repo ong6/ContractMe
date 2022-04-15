@@ -280,9 +280,9 @@ export default function User() {
 							To Introduction
 						</Button>
 					</Link>
-					<Link href="/demo">
+					<Link href="/process">
 						<Button colorScheme="teal" rightIcon={<BsFillCaretRightFill />}>
-							To Figma Showcase
+							To Design Process
 						</Button>
 					</Link>
 				</div>
