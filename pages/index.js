@@ -28,8 +28,8 @@ export default function Home() {
 				</Section>
 				<Section delay={0.3}>
 					<div className="mt-6 text-lg">
-						<div className="text-2xl font-medium">Introduction</div>
-						<div className="mt-2 text-xl font-medium">Design Problem</div>
+						<div className="text-3xl font-medium">Introduction</div>
+						<div className="mt-2 text-2xl font-medium">Design Problem</div>
 						<div className="mt-2 text-lg">
 							When home maintenance is required, homeowners tend to experience various pain points throughout the entire home-repair process. This includes:
 						</div>
@@ -60,7 +60,7 @@ export default function Home() {
 				</Section>
 				<Section delay={0.5}>
 					<div className="mt-4 text-lg">
-						<div className="mt-2 text-xl font-medium">Target Users
+						<div className="mt-2 text-2xl font-medium">Target Users
 						</div>
 						<div className="mt-2 text-lg">
 							<b>Primary User Group</b><br />
@@ -76,9 +76,24 @@ export default function Home() {
 						</div>
 					</div>
 				</Section>
+				<Section delay={0.5}>
+					<div className="mt-4 text-lg">
+						<div className="mt-2 text-2xl font-medium">Proposed Solution
+						</div>
+						<div className="mt-2 text-lg">
+							We will be creating an intuitive and fuss-free application platform called <b>ContractMe!</b> for our primary target groups to connect with each other and streamline the transaction processes including payments as well as communication between the two parties.
+						</div>
+						<div className="mt-2">
+							With the younger homeowners, we aim to design a platform that would allow them to accurately and intuitively identify and direct them to the right contractor at their target price points to match their needs efficiently. With a simplified and guided process for our users to identify and accurately communicate their needs to their intended contractor, these users will be more likely to want to use our platform. We will focus on this target audience for the design of our app. This is as we expect our user study to acquire more responses from homeowners as compared to contractors, allowing us to better tailor the app for homeowners.
+						</div>
+						<div className="mt-2">
+							For the contractors, our platform would be aimed at streamlining and simplifying the communication process and aimed at allowing them to understand what problem each customer needs to solve accurately and efficiently. The aim is to design a platform that allows for minimal time spent on communication and more time on performing their niche services.
+						</div>
+					</div>
+				</Section>
 				<Section delay={0.7}>
 					<div className="mt-6 text-lg">
-						<div className="mt-2 text-xl font-medium">Team
+						<div className="mt-2 text-2xl font-medium">Team
 						</div>
 						<ol className="py-4 text-lg list-disc list-inside">
 							<li className="li">
