@@ -71,8 +71,8 @@ export default function Demo() {
 						</ol>
 						<div className="mt-2 text-xl font-medium">Summary & Takeaways</div>
 						<div className="mt-2 text-lg">
-							Overall we learnt a lot from this team project. Some of the key takeaways
-							are below:
+							Overall we learnt a lot from this team project. Some of the key
+							takeaways are below:
 						</div>
 						<ol className="py-4 text-lg list-disc list-inside">
 							<li className="li">
