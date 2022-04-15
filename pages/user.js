@@ -72,7 +72,7 @@ export default function User() {
 					<div className="mt-2 text-lg">
 						We recruited our primary users by using the following methods:
 					</div>
-					<ol className=" pt-4 text-lg list-disc list-inside">
+					<ol className="pt-4 text-lg list-disc list-inside ">
 						<li className="li">
 							Contact homeowners through family and friends.
 						</li>
@@ -96,7 +96,7 @@ export default function User() {
 						there are sufficient pain points that drive a need for an
 						application with contractors.
 					</div>
-					<ol className=" pt-4 text-lg list-disc list-inside">
+					<ol className="pt-4 text-lg list-disc list-inside ">
 						<li className="font-semibold">Convenience sampling</li>
 						<li className="font-semibold">Snowball sampling</li>
 					</ol>
@@ -112,7 +112,7 @@ export default function User() {
 						we intend to tackle. We can test these hypotheses in our user study
 						to get a idea of what the homeowners might be looking for.
 					</div>
-					<ol className=" pt-4 text-lg list-decimal list-inside">
+					<ol className="pt-4 text-lg list-decimal list-inside ">
 						<li className="font-base">
 							Getting contractor help is the typical solution when homeowners
 							face home repair issues
@@ -140,7 +140,7 @@ export default function User() {
 					<div className="mt-2 text-lg">
 						We performed 3 main types of study methods:
 					</div>
-					<ol className=" py-4 text-lg list-disc list-inside">
+					<ol className="py-4 text-lg list-disc list-inside ">
 						<li className="font-semibold">Survey</li>
 						<li className="font-semibold">Interviews</li>
 						<li className="font-semibold">Contextual Inquiry</li>
@@ -158,13 +158,13 @@ export default function User() {
 					<div className="mt-2 text-lg">
 						The results gathered from the user study are represented below:
 					</div>
-					<ol className=" py-4 text-lg list-disc list-inside">
+					<ol className="py-4 text-lg list-disc list-inside ">
 						<ListLink
 							label="Homeowner survey"
-							weblink="https://docs.google.com/spreadsheets/u/2/d/12_A-0hpFUHZepr7lI46T84s7HnUyOxDqCJZ1AoRsVxM/edit"></ListLink>
+							weblink="https://docs.google.com/spreadsheets/u/2/d/1nvJ_l8bhzvfFes_eM5dV-M4cEH2UNP8rgSEW6eM9w7Y/edit"></ListLink>
 						<ListLink
 							label="Contractor survey"
-							weblink="https://docs.google.com/spreadsheets/u/2/d/1Y0CWQFrAGzc6inu0usH1jckH298dfyf1JAAqrdFcv68/edit"></ListLink>
+							weblink="https://docs.google.com/spreadsheets/u/2/d/1-5hksDh-QwDJrso5mFZtnZtJ2hkZyrpwUE9DpfzRi2M/edit"></ListLink>
 						<ListLink
 							label="Homeowner Interview"
 							weblink="https://docs.google.com/spreadsheets/d/1ziPHYSsJbBBcknGOqiurFRh9x2xFd6ZsdGWGOTS82PY/edit?usp=sharing"></ListLink>
@@ -217,7 +217,7 @@ export default function User() {
 						From there, we came up with 6 main groups (blue note) where each
 						yellow note belonged to.
 					</div>
-					<ol className=" py-4 text-lg list-decimal list-inside">
+					<ol className="py-4 text-lg list-decimal list-inside ">
 						<li className="font-semibold">
 							Pricing and pricing transparency is important to me
 						</li>
@@ -243,7 +243,7 @@ export default function User() {
 						level in the hierarchy, we further distilled these 6 main groups
 						(blue note) into 2 higher-level groups (pink note).{" "}
 					</div>
-					<ol className=" py-4 text-lg list-decimal list-inside">
+					<ol className="py-4 text-lg list-decimal list-inside ">
 						<li className="font-semibold">Pricing matters to me</li>
 						<li className="font-semibold">
 							Quality of contractor service is important to me
