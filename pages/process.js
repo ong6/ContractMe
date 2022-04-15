@@ -440,7 +440,7 @@ export default function Process() {
 													flex="1"
 													textAlign="left"
 													className="font-semibold">
-													User Task 1
+													User Task 1: Search for Home Services
 												</Box>
 												<AccordionIcon />
 											</AccordionButton>
@@ -492,7 +492,7 @@ export default function Process() {
 													flex="1"
 													textAlign="left"
 													className="font-semibold">
-													User Task 2
+													User Task 2: Compare Prices and Quotes
 												</Box>
 												<AccordionIcon />
 											</AccordionButton>
@@ -543,7 +543,7 @@ export default function Process() {
 													flex="1"
 													textAlign="left"
 													className="font-semibold">
-													User Task 2
+													User Task 2: Compare Prices and Quotes
 												</Box>
 												<AccordionIcon />
 											</AccordionButton>
@@ -580,7 +580,7 @@ export default function Process() {
 													flex="1"
 													textAlign="left"
 													className="font-semibold">
-													User Task 3
+													User Task 3: Identify and Communicate Problems
 												</Box>
 												<AccordionIcon />
 											</AccordionButton>
@@ -629,7 +629,7 @@ export default function Process() {
 													flex="1"
 													textAlign="left"
 													className="font-semibold">
-													User Task 1
+													User Task 1: Search for Home Services
 												</Box>
 												<AccordionIcon />
 											</AccordionButton>
@@ -667,7 +667,7 @@ export default function Process() {
 													flex="1"
 													textAlign="left"
 													className="font-semibold">
-													User Task 2
+													User Task 2: Compare Prices and Quotes
 												</Box>
 												<AccordionIcon />
 											</AccordionButton>
@@ -703,7 +703,7 @@ export default function Process() {
 													flex="1"
 													textAlign="left"
 													className="font-semibold">
-													User Task 2
+													User Task 2: Compare Prices and Quotes
 												</Box>
 												<AccordionIcon />
 											</AccordionButton>
@@ -741,7 +741,7 @@ export default function Process() {
 													flex="1"
 													textAlign="left"
 													className="font-semibold">
-													User Task 3
+													User Task 3: Identify and Communicate Problems
 												</Box>
 												<AccordionIcon />
 											</AccordionButton>
