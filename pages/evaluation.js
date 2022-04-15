@@ -25,6 +25,10 @@ import improvement_1 from "../public/improvement_1.png";
 import improvement_2 from "../public/improvement_2.png";
 import improvement_3 from "../public/improvement_3.png";
 import improvement_4 from "../public/improvement_4.png";
+import improvement_5 from "../public/improvement_5.png";
+import improvement_6 from "../public/improvement_6.png";
+import improvement_7 from "../public/improvement_7.png";
+import improvement_8 from "../public/improvement_8.png";
 import styles from "../styles/Home.module.css";
 
 export default function Evaluation() {
@@ -488,15 +492,28 @@ export default function Evaluation() {
 								<div className="mt-2">
 									The search and identify workflow was when users had to use the
 									identify feature to diagnose an issue then afterwards search
-									for the related contractor. Users were satisfied with the way
-									identification works and stated that this feature was
-									incredibly useful. Based on our metrics, all users
-									successfully completed the task under 60 seconds and no users
-									experienced errors. We also notice that this matches with one
-									of Nielsen Heuristics H2: Match between system and real world.
-									This was due to the fact that taking pictures to diagnose
-									issues is very similar to asking a contractor to identify the
-									issue for you.
+									for the related contractor.
+								</div>
+								<div className="text-center flex flex-col text-sm">
+									<Image
+										src={improvement_5}
+										alt="ContractMe"
+										placeholder="blur"
+										className="rounded-lg"
+										height="350"
+										objectFit="contain"
+									/>
+									Camera feature that helps identify issues
+								</div>
+								<div className="mt-2">
+									Users were satisfied with the way identification works and
+									stated that this feature was incredibly useful. Based on our
+									metrics, all users successfully completed the task under 60
+									seconds and no users experienced errors. We also notice that
+									this matches with one of Nielsen Heuristics H2: Match between
+									system and real world. This was due to the fact that taking
+									pictures to diagnose issues is very similar to asking a
+									contractor to identify the issue for you.
 								</div>
 							</AccordionPanel>
 						</AccordionItem>
@@ -511,6 +528,17 @@ export default function Evaluation() {
 								</AccordionButton>
 							</h2>
 							<AccordionPanel pb={4}>
+								<div className="text-center flex flex-col text-sm">
+									<Image
+										src={improvement_6}
+										alt="ContractMe"
+										placeholder="blur"
+										className="rounded-lg"
+										height="350"
+										objectFit="contain"
+									/>
+									Chat functionalities which include messaging and invoicing
+								</div>
 								<div className="mt-2">
 									Our chat feature is integrated with the entire
 									contractor-homeowner interaction. It includes communication
@@ -537,6 +565,17 @@ export default function Evaluation() {
 								</AccordionButton>
 							</h2>
 							<AccordionPanel pb={4}>
+								<div className="text-center flex flex-col text-sm">
+									<Image
+										src={improvement_7}
+										alt="ContractMe"
+										placeholder="blur"
+										className="rounded-lg"
+										height="350"
+										objectFit="contain"
+									/>
+									Information and confirmation dialogs in ContractMe! App
+								</div>
 								<div className="mt-2">
 									We consider informative dialogs and information text to be the
 									popup’s that help with error recovery and error prevention.
@@ -560,6 +599,17 @@ export default function Evaluation() {
 								</AccordionButton>
 							</h2>
 							<AccordionPanel pb={4}>
+								<div className="text-center flex flex-col text-sm">
+									<Image
+										src={improvement_8}
+										alt="ContractMe"
+										placeholder="blur"
+										className="rounded-lg"
+										height="350"
+										objectFit="contain"
+									/>
+									Detail of users are saved and reused
+								</div>
 								<div className="mt-2">
 									With reference to H5: Error prevention, the participants were
 									happy to see that the details of the contact person and
