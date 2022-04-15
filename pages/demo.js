@@ -25,8 +25,8 @@ export default function Demo() {
 	return (
 		<div className={styles.container}>
 			<Head>
-				<title>ContractMe - Figma Showcase</title>
-				<meta name="description" content="ContractMe" />
+				<title>Figma Showcase | ContractMe</title>
+				<meta name="description" content="Figma Showcase | ContractMe" />
 				<link rel="icon" href="/favicon.png" />
 			</Head>
 
@@ -71,8 +71,7 @@ export default function Demo() {
 						</ol>
 						<div className="mt-2 text-xl font-medium">Summary & Takeaways</div>
 						<div className="mt-2 text-lg">
-							Overall I learnt a lot of things from this design project and has
-							helped me to improve my UI/UX skills. Some of the key takeaways
+							Overall we learnt a lot from this team project. Some of the key takeaways
 							are below:
 						</div>
 						<ol className="py-4 text-lg list-disc list-inside">
@@ -103,8 +102,8 @@ export default function Demo() {
 				<Section delay={0.7}>
 					<div className="flex items-center justify-between">
 						<Link href="/evaluation">
-							<Button colorScheme="twitter" leftIcon={<BsFillCaretLeftFill />}>
-								To Design Process
+							<Button colorScheme="teal" leftIcon={<BsFillCaretLeftFill />}>
+								To Evaluation
 							</Button>
 						</Link>
 					</div>

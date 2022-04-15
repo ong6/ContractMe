@@ -41,7 +41,7 @@ export default function Process() {
 		<div className={styles.container}>
 			<Head>
 				<title>Design Process | ContractMe</title>
-				<meta name="description" content="User Research | ContractMe" />
+				<meta name="description" content="Design Process | ContractMe" />
 				<link rel="icon" href="/favicon.png" />
 			</Head>
 			<Section delay={0.1}>
@@ -91,7 +91,7 @@ export default function Process() {
 						We then formed the following 3 user tasks that we wanted to focus
 						on:
 					</div>
-					<ol className=" pt-4 text-lg list-decimal list-inside">
+					<ol className="pt-4 text-lg list-decimal list-inside ">
 						<li className="li">
 							I want to search for reputable and reliable home services
 							conveniently.
@@ -367,7 +367,7 @@ export default function Process() {
 							<TabPanel>
 								<p>
 									<iframe
-										className="my-4 border-2 border-blue-300 rounded-lg w-full"
+										className="w-full my-4 border-2 border-blue-300 rounded-lg"
 										height="600"
 										src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fc26MPsqrpichyAyFI6TPzE%2FG2-Wireframes-JX%3Fnode-id%3D0%253A1"
 										allowFullScreen></iframe>
@@ -376,7 +376,7 @@ export default function Process() {
 							<TabPanel>
 								<p>
 									<iframe
-										className="my-4 border-2 border-blue-300 rounded-lg w-full"
+										className="w-full my-4 border-2 border-blue-300 rounded-lg"
 										height="600"
 										src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F43zUY6xhoUeGE2362BNgJm%2FA0214023B_Wireframes%3Fnode-id%3D0%253A1"
 										allowFullScreen></iframe>
@@ -385,7 +385,7 @@ export default function Process() {
 							<TabPanel>
 								<p>
 									<iframe
-										className="my-4 border-2 border-blue-300 rounded-lg w-full"
+										className="w-full my-4 border-2 border-blue-300 rounded-lg"
 										height="600"
 										src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FC8Hh1uS59l3JFisyx8gmz0%2FG2-Prototypes---Chris%3Fnode-id%3D0%253A1"
 										allowFullScreen></iframe>
@@ -394,7 +394,7 @@ export default function Process() {
 							<TabPanel>
 								<p>
 									<iframe
-										className="my-4 border-2 border-blue-300 rounded-lg w-full"
+										className="w-full my-4 border-2 border-blue-300 rounded-lg"
 										height="600"
 										src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBfLu9036XqaZfXwch0n6jA%2FG2-Wireframes-YX%3Fnode-id%3D0%253A1"
 										allowFullScreen></iframe>
@@ -435,36 +435,36 @@ export default function Process() {
 										</h2>
 										<AccordionPanel pb={4}>
 											<div className="mt-2 text-xl font-medium">Strengths</div>
-											<ol className=" py-4 text-lg list-disc list-inside">
-												<li className="font-base text-base">
+											<ol className="py-4 text-lg list-disc list-inside ">
+												<li className="text-base font-base">
 													Good inclusion of the identify issues functionality,
 													which may come in handy when someone is finding a
 													contractor
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													The star rating displayed at the top provides clear
 													understanding of the service quality
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													The details of ‘happy customers’ and ‘number of
 													favourites’ give good indication of the service
 													quality as well
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													Categorising makes it easier to locate the services
 												</li>
 											</ol>
 											<div className="mt-2 text-xl font-medium">Weaknesses</div>
-											<ol className=" py-4 text-lg list-disc list-inside">
-												<li className="font-base text-base">
+											<ol className="py-4 text-lg list-disc list-inside ">
+												<li className="text-base font-base">
 													The filters in the search page are limited in terms of
 													functionality
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													The ‘up-down’ arrow used on the right of the search
 													box is a little confusing
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													The ‘star’ button at the bottom of the contractor page
 													seems a little out of place when compared with the two
 													other buttons beside it
@@ -487,33 +487,33 @@ export default function Process() {
 										</h2>
 										<AccordionPanel pb={4}>
 											<div className="mt-2 text-xl font-medium">Strengths</div>
-											<ol className=" py-4 text-lg list-disc list-inside">
-												<li className="font-base text-base">
+											<ol className="py-4 text-lg list-disc list-inside ">
+												<li className="text-base font-base">
 													The compare function as a whole seems easy to use
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													Good use of the highlighting portion to identify
 													products with issues
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													The comparison between two services are clear and
 													concise, able to check across different factors
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													Categorising makes it easier to locate the services
 												</li>
 											</ol>
 											<div className="mt-2 text-xl font-medium">Weaknesses</div>
-											<ol className=" py-4 text-lg list-disc list-inside">
-												<li className="font-base text-base">
+											<ol className="py-4 text-lg list-disc list-inside ">
+												<li className="text-base font-base">
 													Not too clear if there are more than 2 contractors to
 													compare
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													The meaning of the ‘select’ buttons is a little
 													unclear
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													It may not be obvious how to enter the comparison page
 													if the user does not click into one of the services
 												</li>
@@ -538,21 +538,21 @@ export default function Process() {
 										</h2>
 										<AccordionPanel pb={4}>
 											<div className="mt-2 text-xl font-medium">Strengths</div>
-											<ol className=" py-4 text-lg list-disc list-inside">
-												<li className="font-base text-base">
+											<ol className="py-4 text-lg list-disc list-inside ">
+												<li className="text-base font-base">
 													Tried and test search layout that would be intuitive
 													for most people
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													Good use of a bottom layout to compare services
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													Easy to understand and use
 												</li>
 											</ol>
 											<div className="mt-2 text-xl font-medium">Weaknesses</div>
-											<ol className=" py-4 text-lg list-disc list-inside">
-												<li className="font-base text-base">
+											<ol className="py-4 text-lg list-disc list-inside ">
+												<li className="text-base font-base">
 													Might be a bit simplistic in terms of flow to allow a
 													better and more detailed comparison of what factors a
 													homeowner might consider
@@ -575,31 +575,31 @@ export default function Process() {
 										</h2>
 										<AccordionPanel pb={4}>
 											<div className="mt-2 text-xl font-medium">Strengths</div>
-											<ol className=" py-4 text-lg list-disc list-inside">
-												<li className="font-base text-base">
+											<ol className="py-4 text-lg list-disc list-inside ">
+												<li className="text-base font-base">
 													Clear, logical layout in terms of what options are
 													available and what can be done
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													Inclusion of backward navigation (reducing error) and
 													loading screens
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													Detailed and show great knowledge of what customers go
 													through in the process.
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													Good use of device hardware to allow better
 													communication between homeowner and contractor
 												</li>
 											</ol>
 											<div className="mt-2 text-xl font-medium">Weaknesses</div>
-											<ol className=" py-4 text-lg list-disc list-inside">
-												<li className="font-base text-base">
+											<ol className="py-4 text-lg list-disc list-inside ">
+												<li className="text-base font-base">
 													Might have too many segments, cause customers to lose
 													focus
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													Might have too many words, can change some to photos/
 													more engagement
 												</li>
@@ -624,23 +624,23 @@ export default function Process() {
 										</h2>
 										<AccordionPanel pb={4}>
 											<div className="mt-2 text-xl font-medium">Strengths</div>
-											<ol className=" py-4 text-lg list-disc list-inside">
-												<li className="font-base text-base">
+											<ol className="py-4 text-lg list-disc list-inside ">
+												<li className="text-base font-base">
 													Feature rich, has a good search feature
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													Showed depth of understanding of contracting issues,
 													as well as the personas (e.g. how contractors have
 													multiple services instead of just one)
 												</li>
 											</ol>
 											<div className="mt-2 text-xl font-medium">Weaknesses</div>
-											<ol className=" py-4 text-lg list-disc list-inside">
-												<li className="font-base text-base">
+											<ol className="py-4 text-lg list-disc list-inside ">
+												<li className="text-base font-base">
 													Design is abit too complex might be hard for users to
 													find what they want
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													The breadcrumb seems a little too small/hard to
 													interact with
 												</li>
@@ -662,19 +662,19 @@ export default function Process() {
 										</h2>
 										<AccordionPanel pb={4}>
 											<div className="mt-2 text-xl font-medium">Strengths</div>
-											<ol className=" py-4 text-lg list-disc list-inside">
-												<li className="font-base text-base">
+											<ol className="py-4 text-lg list-disc list-inside ">
+												<li className="text-base font-base">
 													Good use of symbols to represent certain information
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													The table format allows for clear comparison to be
 													done, the comparison criteria filter helps with
 													adjusting the parameters
 												</li>
 											</ol>
 											<div className="mt-2 text-xl font-medium">Weaknesses</div>
-											<ol className=" py-4 text-lg list-disc list-inside">
-												<li className="font-base text-base">
+											<ol className="py-4 text-lg list-disc list-inside ">
+												<li className="text-base font-base">
 													textual information can be more compact
 												</li>
 											</ol>
@@ -698,22 +698,22 @@ export default function Process() {
 										</h2>
 										<AccordionPanel pb={4}>
 											<div className="mt-2 text-xl font-medium">Strengths</div>
-											<ol className=" py-4 text-lg list-disc list-inside">
-												<li className="font-base text-base">
+											<ol className="py-4 text-lg list-disc list-inside ">
+												<li className="text-base font-base">
 													The individual service page is well thought out
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													The inclusion of the ‘verification’ is useful for
 													users to identify contractors that are more reputable
 												</li>
 											</ol>
 											<div className="mt-2 text-xl font-medium">Weaknesses</div>
-											<ol className=" py-4 text-lg list-disc list-inside">
-												<li className="font-base text-base">
+											<ol className="py-4 text-lg list-disc list-inside ">
+												<li className="text-base font-base">
 													The design may not generalise to some of the other
 													home repair issues
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													The ‘quick look’ section seems a little cluttered to
 													keep two comments side by side. It may not be easy to
 													read the text within.
@@ -736,18 +736,18 @@ export default function Process() {
 										</h2>
 										<AccordionPanel pb={4}>
 											<div className="mt-2 text-xl font-medium">Strengths</div>
-											<ol className=" py-4 text-lg list-disc list-inside">
-												<li className="font-base text-base">
+											<ol className="py-4 text-lg list-disc list-inside ">
+												<li className="text-base font-base">
 													The form inputs are placed in appropriate locations
 												</li>
-												<li className="font-base text-base">
+												<li className="text-base font-base">
 													Good use of the calendar for users to mark out their
 													available dates
 												</li>
 											</ol>
 											<div className="mt-2 text-xl font-medium">Weaknesses</div>
-											<ol className=" py-4 text-lg list-disc list-inside">
-												<li className="font-base text-base">
+											<ol className="py-4 text-lg list-disc list-inside ">
+												<li className="text-base font-base">
 													The chat screen seems a little out of place
 												</li>
 											</ol>
@@ -779,7 +779,7 @@ export default function Process() {
 						Here is a list of learning points that we gathered from this round
 						of design interaction:
 					</div>
-					<ol className=" py-4 text-lg list-decimal list-inside">
+					<ol className="py-4 text-lg list-decimal list-inside ">
 						<li className="font-base">
 							When trying to make the functionality complete with all the
 							necessary components, we should not clutter the screen with every

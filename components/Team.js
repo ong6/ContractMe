@@ -24,6 +24,7 @@ const Team = () => {
 								className="object-cover object-center w-full h-40 mb-6 rounded"
 								src={yl}
 								alt="yl"
+								placeholder="blur"
 							/>
 							<h3 className="text-sm font-medium tracking-widest text-indigo-500 title-font">
 								Liu Yongliang
@@ -36,6 +37,7 @@ const Team = () => {
 								className="object-cover object-center w-full h-40 mb-6 rounded"
 								src={yx}
 								alt="yx"
+								placeholder="blur"
 							/>
 							<h3 className="text-sm font-medium tracking-widest text-indigo-500 title-font">
 								Lou Yun Xin
@@ -49,6 +51,7 @@ const Team = () => {
 								className="object-cover object-center w-full h-40 mb-6 rounded"
 								src={chris}
 								alt="chris"
+								placeholder="blur"
 							/>
 							<h3 className="text-sm font-medium tracking-widest text-indigo-500 title-font">
 								Ng Ting You (Chris)
@@ -61,6 +64,7 @@ const Team = () => {
 								className="object-cover object-center w-full h-40 mb-6 rounded"
 								src={jx}
 								alt="jx"
+								placeholder="blur"
 							/>
 							<h3 className="text-sm font-medium tracking-widest text-indigo-500 title-font">
 								Ong Jun Xiong
