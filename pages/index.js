@@ -66,7 +66,7 @@ export default function Home() {
 							powerful and intuitive features. Contractors can list their
 							services and home owners can look though the listings and pick out
 							the ones most suited for them! &quot;But, what if I don&apos;t
-							know what my problem is?&quot; you may ask. Worry not! ContractMe
+							know what my problem is?&quot; you may ask. Worry not! ContractMe!
 							has a built in identification service for users to easily identify
 							and look up their problem!
 						</div>
@@ -79,7 +79,7 @@ export default function Home() {
 						</div>
 						<div className="mt-2">
 							We&apos;ll be walking you through our design process from all
-							stages. We will follow the double diamond design process showcase
+							stages. We will follow the double diamond design process to showcase
 							the decisions we made before finally showing you our final
 							product.
 						</div>
@@ -92,19 +92,19 @@ export default function Home() {
 							/>
 						</div>
 						<div className="mt-2">
-							A disclaimer that this project portfolio is meant to show a high
+							Disclaimer: this project portfolio is meant to show a high
 							level overview of what we&apos;ve achieved, to view a more
-							in-depth version of our user research steps, please take a look at
+							in-depth version of our design process, please take a look at
 							our main document{" "}
 							<a
 								href={
-									"https://docs.google.com/document/d/1E_OUWJjxPEL88tFPlLIUq07XI0RHtSvggV27suP68UQ/edit#"
+									"https://docs.google.com/document/d/1E_OUWJjxPEL88tFPlLIUq07XI0RHtSvggV27suP68UQ/edit?usp=sharing"
 								}
 								target="_blank"
 								className="text-blue-500"
 								rel="noreferrer">
 								here
-							</a>
+							</a>.
 						</div>
 					</div>
 				</Section>
