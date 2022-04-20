@@ -52,6 +52,23 @@ export default function Demo() {
 					</div>
 				</Section>
 				<Section delay={0.5}>
+					<div className="mt-6">
+						<div className="mt-2 text-xl font-medium">Design Resources Credits</div>
+						<ol className="py-4 text-lg list-decimal list-inside">
+							<li>
+								Some components from Nucleus UI Kit
+							</li>
+							<li>
+								Icons from Feather icons
+							</li>
+							<ListLink
+								data="Stock images from Unsplash"
+								weblink="https://unsplash.com/"
+							/>
+						</ol>
+					</div>
+				</Section>
+				<Section delay={0.5}>
 					<div className="mt-6 text-lg">
 						<div className="text-2xl font-medium">Conclusion</div>
 						<div className="mt-2 text-lg">
